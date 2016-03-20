@@ -4,7 +4,7 @@
       <div class="item-box">
         <div class="image">
           <div class="img-wrap">
-            <%= image_tag(item.get('LargeImage/URL') , alt: "no-image.png") %>
+            <%= image_tag(item.get('LargeImage/URL') , alt: item.get('ItemAttributes/Title')) %>
           </div>
         </div>
         <div class="detail">
