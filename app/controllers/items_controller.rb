@@ -23,8 +23,10 @@ class ItemsController < ApplicationController
   end
   
   def set_have_users
+    @have_users = @item.have_users;
   end
   
   def set_want_users
+    @want_users = @item.want_users;
   end
 end
